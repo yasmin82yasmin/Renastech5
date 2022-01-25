@@ -1,6 +1,11 @@
 package day27;
 
 public class HumanTester {
+    public static void main(String[] args) {
+        Engineer e = new Engineer();
+        Human h = e ; //Engineer "is-a"Human
+        LivingThing t = e ;// Engineer "is-a"  LivingThing
+    }
 
 }
 
